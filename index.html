@@ -43,6 +43,13 @@
       display: inline-block; padding: 2px 8px; border-radius: 9999px;
       font-size: 11px; font-weight: 600; margin-right: 4px;
     }
+    .product .cta {
+      display: inline-block; margin-top: 12px; padding: 8px 16px;
+      background: #6366f1; color: #fff; border-radius: 6px;
+      text-decoration: none; font-size: 13px; font-weight: 600;
+      transition: background 0.2s;
+    }
+    .product .cta:hover { background: #4f46e5; }
     .tag-saas { background: #e0e7ff; color: #4338ca; }
     .tag-digital { background: #fef3c7; color: #92400e; }
     .tag-tool { background: #d1fae5; color: #065f46; }
@@ -76,6 +83,16 @@
       color: #9ca3af; font-size: 13px;
     }
     .footer a { color: #6366f1; text-decoration: none; }
+    @media (max-width: 640px) {
+      .hero { padding: 40px 16px; }
+      .hero h1 { font-size: 28px; }
+      .hero p { font-size: 17px; }
+      .hero .stats { flex-direction: column; gap: 16px; }
+      .container { padding: 40px 16px; }
+      h2 { font-size: 24px; }
+      .products { grid-template-columns: 1fr; }
+      .story { padding: 24px 16px; }
+    }
   </style>
 </head>
 <body>
@@ -104,6 +121,7 @@
         <h3>Testimonial Collector</h3>
         <p>Collect customer reviews with a shareable link. Display them on your website with one line of code. Industry-specific versions for restaurants, dentists, and real estate.</p>
         <div class="price">Free / $8 per month</div>
+        <a href="#testimonial-collector" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -111,6 +129,7 @@
         <h3>WaitlistBuilder</h3>
         <p>Create a beautiful waitlist page in 2 minutes. Built-in referral tracking — every signup gets a unique link to share.</p>
         <div class="price">Free / $9 per month</div>
+        <a href="#waitlist-builder" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -118,6 +137,7 @@
         <h3>MenuWriter</h3>
         <p>AI-powered menu descriptions for restaurants. Type your dish name, get a professional description instantly. 4 writing styles.</p>
         <div class="price">Free (10/mo) / $10 per month</div>
+        <a href="#menu-writer" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -125,6 +145,7 @@
         <h3>SEO Audit Report</h3>
         <p>Enter any URL, get a detailed audit across 10 categories. Performance, SSL, mobile, SEO, content, social, accessibility, and more.</p>
         <div class="price">Free mini-audit / $29 full report</div>
+        <a href="#seo-audit" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -132,6 +153,7 @@
         <h3>JSON Diff</h3>
         <p>Chrome extension for comparing API responses. Paste two JSON blobs, see a structured, color-coded diff instantly.</p>
         <div class="price">Free</div>
+        <a href="#json-diff" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -139,6 +161,7 @@
         <h3>Small Business Starter Kit</h3>
         <p>5 Notion templates: client tracker, project board, invoice log, weekly planner, and business dashboard.</p>
         <div class="price">$9</div>
+        <a href="#starter-kit" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -146,6 +169,7 @@
         <h3>Website Launch Checklist</h3>
         <p>87 items across 10 categories. Everything you need to check before your website goes live.</p>
         <div class="price">$5</div>
+        <a href="#launch-checklist" class="cta">Learn More &rarr;</a>
       </div>
 
       <div class="product">
@@ -153,6 +177,7 @@
         <h3>Launch Your Business Online</h3>
         <p>A complete guide for non-tech business owners. Go from "I need a website" to "my business is online" in one weekend.</p>
         <div class="price">$12</div>
+        <a href="#launch-guide" class="cta">Learn More &rarr;</a>
       </div>
     </div>
 
